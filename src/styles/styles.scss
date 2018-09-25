@@ -1,0 +1,176 @@
+@import './base/settings';
+@import './base/base';
+// @import image from '../../images/spectofeat.jpg'
+body{
+  background-image: url('https://media.wired.com/photos/59de99f39db9cf4266631b87/master/w_1440,c_limit/Movies-TopArt.jpg');
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center; 
+}
+.my-class {
+  background: red;
+}
+.buttonStyle{
+    width: 100%;
+}
+.buttonDiv{
+    text-align: center;
+    margin:3px;
+    width:100%;
+}
+.searchfieldStyle{
+  background: white;
+//   text-align: center;
+}
+.routerStyle{
+  text-decoration: none !important;
+}
+.searchBar{
+  color: black !important;
+  position: relative;
+  width:100%  ;
+  height: 100%;
+  text-align: center;
+}
+.styleSearch{
+  position: relative;
+  top:250px;
+}
+Button{
+  background-color: white !important;
+}
+.imageStyle{
+  height: 320px;
+  width:200px;
+}
+.flex-container {
+  display: flex;
+  background-color: white;
+  flex-wrap: wrap;
+}
+
+.flex-container > div {
+  background-color: #f1f1f1;
+  max-width: 100%;
+  margin: 10px;
+  padding: 20px;
+  font-size: 14px;
+  text-align: center;
+}
+
+
+::-webkit-scrollbar {
+    width: 12px;
+}
+ 
+::-webkit-scrollbar-track {
+    -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.3); 
+    border-radius: 10px;
+}
+ 
+::-webkit-scrollbar-thumb {
+    border-radius: 10px;
+    -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.5); 
+}
+
+
+@media(max-width:1440px){
+.flex-container > div {
+    width:17%;
+    padding:10px;
+}
+.imageStyle{
+    height: 360px;
+    width:220px;
+}
+}
+@media(max-width:1299px){
+.flex-container > div {
+    width:21.8%;
+    padding: 10px;
+}
+.imageStyle{
+    height: 360px;
+    width:259px;
+}
+}
+.card {
+  position: relative;
+  background:white;
+  left: 30%;
+  text-align: center;
+  box-shadow: 0 4px 8px 0 red;
+  transition: 0.3s;
+  width: 40%;
+}
+
+.card:hover {
+  text-align: center;
+  box-shadow: 0 8px 16px 0 red;
+}
+
+.container {
+  text-align: center;
+  padding: 2px 16px;
+}
+.collectionDiv{
+    width: 100% !important;
+    text-align: center !important;
+}
+.styleText{
+    div{
+    text-align: center;
+    width: 100%;
+    }
+}
+
+@media(max-width:1024px){
+.flex-container > div {
+    width:29%;
+    padding: 10px;
+}
+.imageStyle{
+    height: 360px;
+    width:274px;
+}
+}
+@media(max-width:768px){
+.flex-container > div {
+    width:44%;
+    padding:10px;
+}
+.imageStyle{
+    height: 360px;
+    width:325px;
+}
+}
+@media(max-width:425px){
+.flex-container > div {
+    width:100%;
+    padding: 10px;
+}
+.imageStyle{
+    height: 360px;
+    width: 363px;
+}
+}
+@media(max-width:375px){
+.flex-container > div {
+    width:100%;
+    padding:10px;
+}
+.imageStyle{
+    height: 320px;
+    width:309px;
+}
+}
+@media(max-width:320px){
+.flex-container > div {
+    width:100%;
+    padding: 10px;
+}
+.imageStyle{
+    height: 320px;
+    width:256px;
+}
+}
